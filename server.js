@@ -70,15 +70,15 @@ router.get('/', function(req, res) {
 router.route('/:id')
   .get(function(req,res){
     FoodEntry.find({"id": req.params.id},function(err,match){
-      if (match.length === 0) {
-        res.status(404).json({error: 'couldn\'t find id'});
+      if (match.length !== 0) {
+        res.status(200).json(match);
       }
       else {
-        res.status(200).json(match);
+        res.status(404).json({error: 'couldn\'t find id'});
       }
     });
   });
-
+/*
 router.route('/:id/name')
   .get(function(req,res){
     FoodEntry.find({"id": req.params.id},function(err,match){
@@ -114,7 +114,7 @@ router.route('/:id/image')
       }
     });
   });
-
+*/
 app.use('/', router);
 
 app.listen(app.get('port'), function() {
