@@ -70,12 +70,18 @@ router.get('/', function(req, res) {
 router.route('/:id')
   .get(function(req,res){
     FoodEntry.find({"id": req.params.id},function(err,match){
+      if(err)
+        console.log('error');
+      else
+        res.status(200).json(match);
+      /*
       if (match.length !== 0) {
         res.status(200).json(match);
       }
       else {
         res.status(404).json({error: 'couldn\'t find id'});
       }
+      */
     });
   });
 /*

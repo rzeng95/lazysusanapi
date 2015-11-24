@@ -1,0 +1,101 @@
+2015-11-24T07:28:48.890363+00:00 app[web.1]:     at /app/node_modules/kareem/index.js:156:8
+2015-11-24T07:28:48.890362+00:00 app[web.1]:     at Query._find (/app/node_modules/mongoose/lib/query.js:1020:5)
+2015-11-24T07:28:48.890364+00:00 app[web.1]:     at /app/node_modules/kareem/index.js:18:7
+2015-11-24T07:28:48.890366+00:00 app[web.1]:     at process._tickCallback (node.js:357:13)
+2015-11-24T07:28:48.890365+00:00 app[web.1]:     at doNTCallback0 (node.js:428:9)
+2015-11-24T07:28:48.895040+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/favicon.ico" host=lazysusanapi2.herokuapp.com request_id=56d126cf-4614-47b8-a221-ba4b8e5d4312 fwd="23.243.52.73" dyno=web.1 connect=0ms service=16ms status=503 bytes=0
+2015-11-24T07:28:49.593458+00:00 heroku[web.1]: Process exited with status 1
+2015-11-24T07:28:51.849301+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/1" host=lazysusanapi2.herokuapp.com request_id=bc945d59-84b3-4502-abbd-7dae122039d3 fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
+2015-11-24T07:28:53.505316+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=lazysusanapi2.herokuapp.com request_id=715fc8c6-c2dd-4437-8442-d9f1b7291d9b fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
+2015-11-24T07:28:42.352585+00:00 heroku[web.1]: State changed from up to crashed
+2015-11-24T07:28:42.353639+00:00 heroku[web.1]: State changed from crashed to starting
+2015-11-24T07:28:56.532566+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=lazysusanapi2.herokuapp.com request_id=9a19a371-7106-4f37-a4f3-5f3345546aae fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
+2015-11-24T07:28:57.377749+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=lazysusanapi2.herokuapp.com request_id=cb4e74d7-76f5-4a44-a826-684a40c0319d fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
+2015-11-24T07:28:49.601269+00:00 heroku[web.1]: State changed from up to crashed
+2015-11-24T07:38:48.768854+00:00 heroku[slug-compiler]: Slug compilation started
+2015-11-24T07:38:48.768864+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-11-24T07:38:48.616394+00:00 heroku[api]: Deploy 6a86226 by rzeng0508@gmail.com
+2015-11-24T07:38:48.616431+00:00 heroku[api]: Release v5 created by rzeng0508@gmail.com
+2015-11-24T07:38:48.905297+00:00 heroku[web.1]: State changed from crashed to starting
+2015-11-24T07:38:49.934945+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-11-24T07:38:52.705545+00:00 heroku[web.1]: State changed from starting to up
+2015-11-24T07:38:52.665681+00:00 app[web.1]: App is running on port 28466
+2015-11-24T07:38:59.074351+00:00 heroku[router]: at=info method=GET path="/" host=lazysusanapi2.herokuapp.com request_id=324bd07d-da04-4694-95e6-e0843689adca fwd="23.243.52.73" dyno=web.1 connect=0ms service=32ms status=200 bytes=199
+2015-11-24T07:39:00.508854+00:00 heroku[router]: at=info method=GET path="/0" host=lazysusanapi2.herokuapp.com request_id=cd8c98bc-cd3c-4123-9dc8-f96020db5baa fwd="23.243.52.73" dyno=web.1 connect=0ms service=47ms status=200 bytes=836
+2015-11-24T07:39:01.463604+00:00 heroku[router]: at=info method=GET path="/0" host=lazysusanapi2.herokuapp.com request_id=2fd7da6e-e41c-4a93-8aa9-442404aa0a92 fwd="23.243.52.73" dyno=web.1 connect=0ms service=33ms status=200 bytes=836
+2015-11-24T07:39:02.018335+00:00 heroku[router]: at=info method=GET path="/0" host=lazysusanapi2.herokuapp.com request_id=0f54f348-94f1-441b-a2dc-c10e015c7bfc fwd="23.243.52.73" dyno=web.1 connect=0ms service=9ms status=200 bytes=836
+2015-11-24T07:39:02.547404+00:00 heroku[router]: at=info method=GET path="/0" host=lazysusanapi2.herokuapp.com request_id=18492013-d9f9-43ef-b416-39617d1c8b31 fwd="23.243.52.73" dyno=web.1 connect=0ms service=7ms status=200 bytes=836
+2015-11-24T07:39:02.993407+00:00 heroku[router]: at=info method=GET path="/0" host=lazysusanapi2.herokuapp.com request_id=c6d30644-b328-4409-a095-7b2f53e0d3d6 fwd="23.243.52.73" dyno=web.1 connect=0ms service=18ms status=200 bytes=836
+2015-11-24T07:39:03.381694+00:00 heroku[router]: at=info method=GET path="/0" host=lazysusanapi2.herokuapp.com request_id=dd77026b-15e3-4ba4-8ab1-b7343f6dd179 fwd="23.243.52.73" dyno=web.1 connect=0ms service=12ms status=200 bytes=836
+2015-11-24T07:39:03.768278+00:00 heroku[router]: at=info method=GET path="/0" host=lazysusanapi2.herokuapp.com request_id=ca2e4cc6-4459-4e38-aace-be2a2eba7063 fwd="23.243.52.73" dyno=web.1 connect=0ms service=8ms status=200 bytes=836
+2015-11-24T07:39:05.133319+00:00 heroku[router]: at=info method=GET path="/000" host=lazysusanapi2.herokuapp.com request_id=f171d9da-7ba0-4130-a675-77cc2825af21 fwd="23.243.52.73" dyno=web.1 connect=1ms service=11ms status=200 bytes=836
+2015-11-24T07:39:07.386452+00:00 heroku[router]: at=info method=GET path="/111" host=lazysusanapi2.herokuapp.com request_id=174120e3-af8a-468e-bb7d-6eb1a0e03a14 fwd="23.243.52.73" dyno=web.1 connect=0ms service=4ms status=404 bytes=237
+2015-11-24T07:39:09.164645+00:00 heroku[router]: at=info method=GET path="/10" host=lazysusanapi2.herokuapp.com request_id=3d0a0e0a-d4b7-4be0-8c02-29f01ee2543b fwd="23.243.52.73" dyno=web.1 connect=0ms service=9ms status=200 bytes=729
+2015-11-24T07:39:10.417969+00:00 heroku[router]: at=info method=GET path="/19" host=lazysusanapi2.herokuapp.com request_id=18f0389f-0cf4-437d-96e9-20214652d5a7 fwd="23.243.52.73" dyno=web.1 connect=0ms service=9ms status=200 bytes=744
+2015-11-24T07:39:11.647007+00:00 heroku[router]: at=info method=GET path="/18" host=lazysusanapi2.herokuapp.com request_id=4126029e-6954-4110-b5ee-be6925fd5feb fwd="23.243.52.73" dyno=web.1 connect=0ms service=11ms status=200 bytes=713
+2015-11-24T07:39:13.102852+00:00 heroku[router]: at=info method=GET path="/17" host=lazysusanapi2.herokuapp.com request_id=69e17ca8-7436-46d8-983e-d2bd4fdd4360 fwd="23.243.52.73" dyno=web.1 connect=1ms service=29ms status=200 bytes=713
+2015-11-24T07:39:14.482484+00:00 heroku[router]: at=info method=GET path="/16" host=lazysusanapi2.herokuapp.com request_id=ff634334-e179-47af-a311-38562e501f0c fwd="23.243.52.73" dyno=web.1 connect=0ms service=27ms status=200 bytes=738
+2015-11-24T07:39:15.314529+00:00 heroku[router]: at=info method=GET path="/15" host=lazysusanapi2.herokuapp.com request_id=b4d9a576-8794-48c6-bd2a-d1236a89d844 fwd="23.243.52.73" dyno=web.1 connect=0ms service=25ms status=200 bytes=720
+2015-11-24T07:39:16.278742+00:00 heroku[router]: at=info method=GET path="/14" host=lazysusanapi2.herokuapp.com request_id=26fcaf2d-cd6b-432c-bcb0-0f16795b2ffc fwd="23.243.52.73" dyno=web.1 connect=2ms service=9ms status=200 bytes=742
+2015-11-24T07:39:17.251812+00:00 heroku[router]: at=info method=GET path="/13" host=lazysusanapi2.herokuapp.com request_id=b98bf693-f86d-42d8-991f-ea9db26436fc fwd="23.243.52.73" dyno=web.1 connect=0ms service=9ms status=200 bytes=745
+2015-11-24T07:39:18.156821+00:00 heroku[router]: at=info method=GET path="/13" host=lazysusanapi2.herokuapp.com request_id=be754309-a923-4ab6-ba93-59db26da5daa fwd="23.243.52.73" dyno=web.1 connect=0ms service=18ms status=200 bytes=745
+2015-11-24T07:39:19.187855+00:00 heroku[router]: at=info method=GET path="/13" host=lazysusanapi2.herokuapp.com request_id=ba38430c-f24f-4d1b-a7f0-0b4c11d960da fwd="23.243.52.73" dyno=web.1 connect=0ms service=11ms status=200 bytes=745
+2015-11-24T07:39:21.152802+00:00 heroku[router]: at=info method=GET path="/12" host=lazysusanapi2.herokuapp.com request_id=381aec4d-928f-483c-bf19-025500384f6c fwd="23.243.52.73" dyno=web.1 connect=0ms service=18ms status=200 bytes=721
+2015-11-24T07:39:22.213590+00:00 heroku[router]: at=info method=GET path="/11" host=lazysusanapi2.herokuapp.com request_id=1abebcde-213d-4ccd-9a6a-cbe7f3008636 fwd="23.243.52.73" dyno=web.1 connect=0ms service=47ms status=200 bytes=789
+2015-11-24T07:39:23.293758+00:00 heroku[router]: at=info method=GET path="/10" host=lazysusanapi2.herokuapp.com request_id=313f5ad9-78d2-49ab-86ed-50a20d9b0846 fwd="23.243.52.73" dyno=web.1 connect=0ms service=11ms status=200 bytes=729
+2015-11-24T07:39:24.320027+00:00 heroku[router]: at=info method=GET path="/9" host=lazysusanapi2.herokuapp.com request_id=ce658bfe-0d6e-49f0-9999-bf8d8534eaff fwd="23.243.52.73" dyno=web.1 connect=0ms service=16ms status=200 bytes=927
+2015-11-24T07:39:25.873273+00:00 heroku[router]: at=info method=GET path="/8" host=lazysusanapi2.herokuapp.com request_id=dd04a2fd-ab8a-428c-b508-84eb91088fe9 fwd="23.243.52.73" dyno=web.1 connect=0ms service=11ms status=200 bytes=756
+2015-11-24T07:39:26.901884+00:00 heroku[router]: at=info method=GET path="/7" host=lazysusanapi2.herokuapp.com request_id=0913cf83-4804-4555-ad19-7fd3cb6568b6 fwd="23.243.52.73" dyno=web.1 connect=0ms service=13ms status=200 bytes=748
+2015-11-24T07:39:27.662581+00:00 heroku[router]: at=info method=GET path="/6" host=lazysusanapi2.herokuapp.com request_id=b7aa0a34-fd0c-442f-a256-4023e778a867 fwd="23.243.52.73" dyno=web.1 connect=0ms service=8ms status=200 bytes=761
+2015-11-24T07:39:28.420219+00:00 heroku[router]: at=info method=GET path="/5" host=lazysusanapi2.herokuapp.com request_id=92881f6f-1ce2-4a54-969d-ac5f056b72b7 fwd="23.243.52.73" dyno=web.1 connect=0ms service=12ms status=200 bytes=836
+2015-11-24T07:39:31.049511+00:00 heroku[router]: at=info method=GET path="/4" host=lazysusanapi2.herokuapp.com request_id=6bb4c66c-6fd4-4ea2-b536-d276ed1948c7 fwd="23.243.52.73" dyno=web.1 connect=0ms service=1884ms status=200 bytes=934
+2015-11-24T07:39:32.311359+00:00 heroku[router]: at=info method=GET path="/3" host=lazysusanapi2.herokuapp.com request_id=ab8d3528-c6f6-4ab4-b96b-37ee9086a045 fwd="23.243.52.73" dyno=web.1 connect=2ms service=7ms status=200 bytes=751
+2015-11-24T07:39:33.207136+00:00 heroku[router]: at=info method=GET path="/2" host=lazysusanapi2.herokuapp.com request_id=d7467283-77df-49d4-ae46-8537c1686ad0 fwd="23.243.52.73" dyno=web.1 connect=0ms service=10ms status=200 bytes=726
+2015-11-24T07:39:34.145255+00:00 heroku[router]: at=info method=GET path="/1" host=lazysusanapi2.herokuapp.com request_id=9be8feb3-01fb-43ba-b70a-332159e6594b fwd="23.243.52.73" dyno=web.1 connect=0ms service=22ms status=200 bytes=726
+2015-11-24T07:40:58.035104+00:00 heroku[router]: at=info method=GET path="/" host=lazysusanapi2.herokuapp.com request_id=9c96bce9-6db7-4c32-a82f-749eba1931b7 fwd="23.243.52.73" dyno=web.1 connect=0ms service=2ms status=200 bytes=199
+2015-11-24T07:40:58.368265+00:00 app[web.1]: /app/server.js:73
+2015-11-24T07:40:58.368270+00:00 app[web.1]:       if (match.length !== 0) {
+2015-11-24T07:40:58.368271+00:00 app[web.1]: 
+2015-11-24T07:40:58.368270+00:00 app[web.1]:                ^
+2015-11-24T07:40:58.368272+00:00 app[web.1]: TypeError: Cannot read property 'length' of undefined
+2015-11-24T07:40:58.368273+00:00 app[web.1]:     at /app/server.js:73:16
+2015-11-24T07:40:58.368275+00:00 app[web.1]:     at Query._find (/app/node_modules/mongoose/lib/query.js:1020:5)
+2015-11-24T07:40:58.368274+00:00 app[web.1]:     at /app/node_modules/kareem/index.js:160:11
+2015-11-24T07:40:58.368275+00:00 app[web.1]:     at /app/node_modules/kareem/index.js:156:8
+2015-11-24T07:40:58.368276+00:00 app[web.1]:     at /app/node_modules/kareem/index.js:18:7
+2015-11-24T07:40:58.368277+00:00 app[web.1]:     at doNTCallback0 (node.js:428:9)
+2015-11-24T07:40:58.368277+00:00 app[web.1]:     at process._tickCallback (node.js:357:13)
+2015-11-24T07:40:58.382958+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/favicon.ico" host=lazysusanapi2.herokuapp.com request_id=582d7243-410e-4bbc-ac6f-1aed890facdb fwd="23.243.52.73" dyno=web.1 connect=0ms service=27ms status=503 bytes=0
+2015-11-24T07:40:59.001110+00:00 heroku[web.1]: Process exited with status 1
+2015-11-24T07:41:00.069924+00:00 heroku[web.1]: Starting process with command `node server.js`
+2015-11-24T07:41:02.221280+00:00 app[web.1]: App is running on port 41050
+2015-11-24T07:40:59.010058+00:00 heroku[web.1]: State changed from up to crashed
+2015-11-24T07:40:59.010058+00:00 heroku[web.1]: State changed from crashed to starting
+2015-11-24T07:41:04.041793+00:00 heroku[router]: at=info method=GET path="/" host=lazysusanapi2.herokuapp.com request_id=cb71f814-376f-48fe-8793-39ab20fedf78 fwd="173.252.90.83" dyno=web.1 connect=2ms service=13ms status=200 bytes=199
+2015-11-24T07:41:07.693928+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/favicon.ico" host=lazysusanapi2.herokuapp.com request_id=33bdd15c-672f-4640-8c9a-6637105512f1 fwd="173.252.102.114" dyno=web.1 connect=0ms service=29ms status=503 bytes=0
+2015-11-24T07:41:07.681516+00:00 app[web.1]: /app/server.js:73
+2015-11-24T07:41:07.681519+00:00 app[web.1]:       if (match.length !== 0) {
+2015-11-24T07:41:07.681519+00:00 app[web.1]:                ^
+2015-11-24T07:41:07.681521+00:00 app[web.1]: TypeError: Cannot read property 'length' of undefined
+2015-11-24T07:41:07.681520+00:00 app[web.1]: 
+2015-11-24T07:41:07.681521+00:00 app[web.1]:     at /app/server.js:73:16
+2015-11-24T07:41:07.681523+00:00 app[web.1]:     at Query._find (/app/node_modules/mongoose/lib/query.js:1020:5)
+2015-11-24T07:41:07.681522+00:00 app[web.1]:     at /app/node_modules/kareem/index.js:160:11
+2015-11-24T07:41:07.681523+00:00 app[web.1]:     at /app/node_modules/kareem/index.js:156:8
+2015-11-24T07:41:07.681524+00:00 app[web.1]:     at /app/node_modules/kareem/index.js:18:7
+2015-11-24T07:41:07.681525+00:00 app[web.1]:     at doNTCallback0 (node.js:428:9)
+2015-11-24T07:41:07.681525+00:00 app[web.1]:     at process._tickCallback (node.js:357:13)
+2015-11-24T07:41:07.695845+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/" host=lazysusanapi2.herokuapp.com request_id=eb9e6c5c-32a4-4535-b327-60f335dc5e63 fwd="173.252.102.116" dyno=web.1 connect=0ms service=24ms status=503 bytes=0
+2015-11-24T07:41:07.666822+00:00 heroku[router]: at=info method=GET path="/" host=lazysusanapi2.herokuapp.com request_id=ce40973b-cfee-436c-a0c8-0df7f5081937 fwd="173.252.102.115" dyno=web.1 connect=1ms service=7ms status=200 bytes=199
+2015-11-24T07:41:08.383656+00:00 heroku[web.1]: State changed from up to crashed
+2015-11-24T07:41:08.370365+00:00 heroku[web.1]: Process exited with status 1
+2015-11-24T07:41:02.256089+00:00 heroku[web.1]: State changed from starting to up
+2015-11-24T07:41:11.918791+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/0" host=lazysusanapi2.herokuapp.com request_id=f9dc9ec3-a2d6-4da6-931e-1474d68601f3 fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
+2015-11-24T07:41:12.442362+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=lazysusanapi2.herokuapp.com request_id=b9a0f6e1-f885-4cc1-a2f4-a0dd16311672 fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
+2015-11-24T07:41:14.601583+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/1" host=lazysusanapi2.herokuapp.com request_id=8d05842b-484c-4ca6-a1a6-97d3c21a24c6 fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
+2015-11-24T07:41:15.355005+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=lazysusanapi2.herokuapp.com request_id=d8ddf204-0139-4ee9-a01e-e1131ee66c0d fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
+2015-11-24T07:41:21.440015+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=lazysusanapi2.herokuapp.com request_id=d637bb52-684c-40f3-8760-e0e59dc31bfc fwd="172.91.92.232" dyno= connect= service= status=503 bytes=
+2015-11-24T07:41:22.380821+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=lazysusanapi2.herokuapp.com request_id=b61c1846-3078-4dc1-8974-78e1851dbffa fwd="172.91.92.232" dyno= connect= service= status=503 bytes=
+2015-11-24T07:41:29.788091+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/0" host=lazysusanapi2.herokuapp.com request_id=f102a2b9-5bb9-437b-b6f9-8137261fe424 fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
+2015-11-24T07:41:30.395001+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=lazysusanapi2.herokuapp.com request_id=12469630-22ef-42c7-b6df-c50f99439061 fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
+2015-11-24T07:42:16.762350+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/1" host=lazysusanapi2.herokuapp.com request_id=f9310909-ffd7-4477-b0af-85c2c3ceefd5 fwd="23.243.52.73" dyno= connect= service= status=503 bytes=
