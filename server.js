@@ -85,7 +85,7 @@ router.route('/entrees/:id')
     });
   });
 
-  router.route('/all')
+  router.route('/search')
     .get(function(req,res){
 
       var all = [
